@@ -220,12 +220,7 @@ main {
     padding: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-    .thumbnail-gallery img {
-        height: 125px;
-        width: 40%;
-    }
-}
+
 
 .video-box {
     position: relative;
@@ -362,4 +357,19 @@ main {
     font-size: 1.1rem;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+}
+
+@media only screen and (max-width: 600px) {
+    .thumbnail-gallery img {
+        height: 125px;
+        width: 40%;
+    }
+
+    .overlay h1 {
+        font-size: 3em;
+    }
+
+    .overlay p {
+        font-size: 1.0em !important;
+    }
 }
