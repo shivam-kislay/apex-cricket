@@ -46,9 +46,11 @@ h1 {
     text-align: center;
 }
 
-.carousel-item {
-    opacity: 0.5;
-}
+
+    .carousel-item img {
+        object-fit: fill;
+        height: 550px;
+    }
 
 .drop-in {
     opacity: 0;
@@ -333,12 +335,13 @@ main {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(240, 240, 240, 0.8); /* This gives the opacity effect */
+    background-color: rgba(0, 0, 0, 0.9); /* This gives the opacity effect */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 20px;
+    color: white;
 }
 
     .overlay h1 {
@@ -371,5 +374,9 @@ main {
 
     .overlay p {
         font-size: 1.0em !important;
+    }
+
+    .carousel-item img {
+        height: 250px !important;
     }
 }
