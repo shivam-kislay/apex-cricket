@@ -338,7 +338,7 @@ main {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(240, 240, 240, 0.6); /* This gives the opacity effect */
+    background-color: rgba(240, 240, 240, 0.8); /* This gives the opacity effect */
     display: flex;
     justify-content: center;
     align-items: center;
